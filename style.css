@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: screen;
+  color: rgb(232, 230, 227);
+  font-family: "poppins", sans-serif;
+  overflow-x: hidden;
+  background: #000;
+}
+
+#main{
+width: 100%;
+height: 100%;
+}
+#minicircle{
+  height: 18px;
+  width: 18px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+#bounding{
+  width: fit-content;
+  height: auto;
+  overflow: hidden;
+}
+#bounding h1{
+  transform: translatey(100%);
+}
+#bounding h2{
+  transform: translatey(100%);
+}
+#tren img{
+  transform: translatex(100%);
+}
+
+
+
+
+#nav {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+#left {
+  font-weight: 500;
+  color: rgb(232, 230, 227);
+  font-size: 18px;
+  line-height: 42px;
+}
+#right {
+  font-weight: 500;
+  color: rgb(232, 230, 227);
+  font-size: 18px;
+  line-height: 42px;
+}
+#hero {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  height: 60vh;
+  width: 97vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+#hero h1 {
+  font-weight: 500;
+  color: "rgb(174, 167, 157)";
+  font-size: 142px;
+  line-height: 138px;
+}
+#bull {
+  padding: 0 8rem;
+}
+
+#ox h3 {
+  font-weight: 500;
+  color: rgb(232, 230, 227);
+  font-size: 16px;
+  line-height: 34px;
+  text-align: right;
+  margin-right: 25rem;
+}
+
+#right_hero img {
+  cursor: pointer;
+}
+
+#hero_02 {
+  margin-top: 4rem;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+#lion {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  color: rgb(232, 230, 227);
+  justify-content: space-between;
+}
+
+#lion h1 {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#rihgt_hero_02 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: rgb(232, 230, 227);
+  margin-right: 2rem;
+}
+#rihgt_hero_02 h2 {
+  font-weight: 500;
+  line-height: normal;
+  font-size: 16px;
+}
+#sea span {
+  margin-top: 0.5rem;
+  background: rgb(232, 230, 227);
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+  text-align: end;
+}
+
+#whiteline {
+  border: 0.5px solid rgb(232, 230, 227);
+  width: 100%;
+}
+
+#hero_03 {
+  margin-top: 3rem;
+  height: 150vh;
+  margin: 2rem;
+}
+
+.date {
+  font-size: 16px;
+}
+
+#theplug {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+#ixperience {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+#hudu {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+#hero_04 {
+  margin-top: 3rem;
+  height: 100vh;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#left_hero_04{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#left_hero_04 img{
+    border-radius: 50%;
+}
+
+#right_hero_04{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#right_hero_04 p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400px;
+    text-align: start;
+    text-wrap: balance;
+}
+#right_hero_04 button{
+ padding: 1rem;
+ border: 2px solid rgb(232, 230, 227) ;
+ color: rgb(0, 0, 0);
+ cursor: pointer;
+ font-weight: 800;
+ font-size: 12px;
+ text-transform: uppercase;
+ border-radius: 15px;
+}
+
+#right_hero_04 button:hover{
+ background: rgb(232, 230, 227);
+ color: #000;
+}
+
+#footer{
+    background: rgb(0, 0, 0);
+    height: 4rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left_footer{
+    margin-left: 3rem;
+    width: 10%;
+    font-size: 20px ;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#right_footer{
+    width: 30%;
+    margin-right: 3rem;
+    font-size: 20px ;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#right_footer a{
+    color: #000;
+    text-decoration: none;
+}
+
